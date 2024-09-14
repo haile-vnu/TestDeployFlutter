@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Cho phép truy cập hình ảnh và nội dung nghe nhìn để sử dụng hình ảnh lên đánh giá của bạn.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Cho phép truy cập chụp ảnh và quay video để sử dụng hình ảnh cho đánh giá của bạn.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Cho phep</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -26,10 +32,6 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescription</key>
-	<string>Cho phép truy cập chụp ảnh và quay video để sử dụng hình ảnh cho đánh giá của bạn.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Cho phép truy cập hình ảnh và nội dung nghe nhìn để sử dụng hình ảnh lên đánh giá của bạn.</string>
 	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
